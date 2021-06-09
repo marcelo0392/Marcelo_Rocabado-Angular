@@ -6,8 +6,7 @@ import { HeaderComponent } from './landing-page/header/header.component';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./landing-page/landing-page.module').then (m => m.LandingPageModule),
-    component: HeaderComponent
+    loadChildren: () => import('./landing-page/landing-page.module').then (m => m.LandingPageModule)
   },
   {
     path: 'error',
