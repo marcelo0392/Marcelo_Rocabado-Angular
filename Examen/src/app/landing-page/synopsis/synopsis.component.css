@@ -1,0 +1,24 @@
+.parrafo{
+    margin: 70px auto;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 40px 40px;
+}
+
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+hr{
+    width: 8%;
+    height: 3px;
+    color: white;
+    margin: 0 auto 40px ;    
+}
+
+img{
+    width: 100%;
+}
