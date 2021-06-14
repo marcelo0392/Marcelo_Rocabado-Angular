@@ -24,6 +24,12 @@
             <a class="nav-link active" aria-current="page" routerLink="/trailer">Trailer</a>
           </li>
         </ul>
+
+        <form class="d-flex">
+          <button type="button" class="btn btn-outline-primary" (click)="open('./register')">Register</button>
+          <button type="button" class="btn btn-primary" (click)="open('./login')">Login</button>
+        </form>
+
       </div>
     </div>
   </nav>

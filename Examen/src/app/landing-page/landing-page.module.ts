@@ -10,6 +10,9 @@ import { SynopsisComponent } from './synopsis/synopsis.component';
 import { ContactComponent } from './contact/contact.component';
 import { OtherGamesComponent } from './other-games/other-games.component';
 import { TrailerComponent } from './trailer/trailer.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -21,11 +24,15 @@ import { TrailerComponent } from './trailer/trailer.component';
     SynopsisComponent,
     ContactComponent,
     OtherGamesComponent,
-    TrailerComponent
+    TrailerComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,
-    LandingPageRoutingModule
+    LandingPageRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class LandingPageModule { }
