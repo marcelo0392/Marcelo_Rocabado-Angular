@@ -1,0 +1,18 @@
+
+.tam{
+    height: 230px;
+    background-image: url(../../../assets/Imagenes/sony.png);
+    background-size: 100% 230px;
+}
+
+
+button{
+    margin: 0 3px;
+    /*border: 2px solid rgb(36, 202, 36);*/
+    border-radius: 10px;
+    color: white;
+}
+
+a{
+    margin: 0 15px;
+}
