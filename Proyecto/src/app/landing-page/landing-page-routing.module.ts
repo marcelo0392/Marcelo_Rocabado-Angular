@@ -6,6 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { InstallationComponent } from './installation/installation.component';
 import { LandingPageComponent } from './landing-page.component';
+import { LoginComponent } from './login/login.component';
 import { RepairsComponent } from './repairs/repairs.component';
 
 const routes: Routes = [
@@ -32,7 +33,12 @@ const routes: Routes = [
       {
         path: 'instalation',
         component: InstallationComponent
+      },
+      {
+        path: 'login',
+        component: LoginComponent
       }
+
     ]
   }
 ];
