@@ -1,9 +1,18 @@
 h1{
     text-align: center;
-    color: white;
     margin: 80px 0 50px;
 }
 .parrafo{
-    color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.imagen:hover{
+    transform: scale(1.1);
+    transition: 800ms;
+}
+
+h5{
     text-align: center;
 }

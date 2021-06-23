@@ -13,6 +13,7 @@ button{
     color: white;
 }
 
-a{
+.margen{
     margin: 0 15px;
+    color: rgb(79, 79, 248);
 }
