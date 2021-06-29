@@ -1,0 +1,13 @@
+
+img{
+    max-height: 250px;
+}
+section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+}

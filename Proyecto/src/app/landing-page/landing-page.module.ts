@@ -12,6 +12,7 @@ import { RepairsComponent } from './repairs/repairs.component';
 import { InstallationComponent } from './installation/installation.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -29,7 +30,10 @@ import { RegisterComponent } from './register/register.component';
   ],
   imports: [
     CommonModule,
-    LandingPageRoutingModule
+    LandingPageRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
+
   ]
 })
 export class LandingPageModule { }

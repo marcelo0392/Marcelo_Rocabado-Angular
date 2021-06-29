@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { InstallationComponent } from './installation/installation.component';
 import { LandingPageComponent } from './landing-page.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 import { RepairsComponent } from './repairs/repairs.component';
 
 const routes: Routes = [
@@ -37,6 +38,10 @@ const routes: Routes = [
       {
         path: 'login',
         component: LoginComponent
+      },
+      {
+        path: 'register',
+        component: RegisterComponent
       }
 
     ]

@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
 
-  constructor() { }
+  
+  constructor() { 
+    var channelArray: string = "marceloocabado";
+    console.log(channelArray.includes('v'));
+  }
 
   ngOnInit(): void {
   }
