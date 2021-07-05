@@ -1,4 +1,4 @@
-<section style="background-color: white;">
+<section style="background-color: white; background: -webkit-linear-gradient(top, #ffffff, rgb(66, 66, 66));">
 
   <div class="card" style="max-width: 700px; background-color: rgba(0, 0, 0, 0.2); margin: 0 auto;">
     <img src="https://kashmirglacier.com/wp-content/uploads/2020/06/Case-Register.png" alt="">
@@ -11,7 +11,7 @@
             <input type="text" formControlName="name" class="form-control" placeholder="Name"
             [ngClass]="{'is-invalid': submitted && f.name.errors}">
             <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
-              <div *ngIf="f.name.errors.required && f.name.touched">Name is required</div>
+              <div *ngIf="f.name.errors.required">Name is required</div>
             </div>
           </div>
         </div>

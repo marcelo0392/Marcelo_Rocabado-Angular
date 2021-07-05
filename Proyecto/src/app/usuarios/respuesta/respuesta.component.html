@@ -1,0 +1,12 @@
+<p>respuesta works!</p>
+
+<div class="row m-5">
+    <div class="card border-success mb-3 mx-2 " style="max-width: 18rem;" *ngFor="let row of rows">
+            <img [src]="row.avatar_url" alt="">
+        <div class="card-header bg-success text-white">{{row.id}}</div>
+        <div class="card-body">
+            <h5 class="card-title">{{row.login}}</h5>
+            <p class="card-text" style="text-align: center;">{{row.url}}</p>    
+        </div>
+    </div>
+</div>

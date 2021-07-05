@@ -13,6 +13,7 @@ import { InstallationComponent } from './installation/installation.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ResComponent } from './res/res.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     RepairsComponent,
     InstallationComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ResComponent
   ],
   imports: [
     CommonModule,

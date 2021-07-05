@@ -1,0 +1,33 @@
+
+
+section{
+    background-image: url(../../../assets/Imagenes/fnd.jpg);
+    background-size: 100% 630px;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+h2{
+    color: white;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: 20px 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+
